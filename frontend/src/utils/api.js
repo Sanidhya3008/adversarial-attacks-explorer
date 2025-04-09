@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://saninets-adversarial-attacks-backend.hf.space/api';
 
 // API client instance
 const apiClient = axios.create({
