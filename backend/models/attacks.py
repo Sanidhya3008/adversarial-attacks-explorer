@@ -14,7 +14,7 @@ from art.estimators.classification import PyTorchClassifier
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Class names for ImageNet
-IMAGENET_CLASSES_FILE = 'backend/static/imagenet_classes.txt'
+IMAGENET_CLASSES_FILE = 'static/imagenet_classes.txt'
 
 # Load ImageNet class names
 def load_imagenet_classes():
